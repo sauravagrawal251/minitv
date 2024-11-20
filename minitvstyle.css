@@ -1,0 +1,300 @@
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin-left: 0;
+}
+
+.navbar{
+    background-color: #1A2224;
+    height: 72px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.minitv-png{
+    background-image:url("/assets/minitv.png");
+    background-size: cover;
+    height: 70px;
+    width:170px;
+    position: relative;
+    bottom:23px;
+    margin: 0px 48px;
+}
+a{
+    font-weight: bold;
+    justify-content: space-evenly;
+    padding:0px 15px;
+    font-size: 15px;
+    position: relative;
+    left: 250px;
+    bottom:46px;
+    color: white;
+    text-decoration: none;
+}
+
+.navcorner{
+    position: absolute;
+    right:1px;
+    top:25px;
+    display: flex;
+    
+    
+
+}
+.alogo{
+    background-image: url("/assets/alogo.png");
+    background-size: cover;
+    height: 24px;
+    width:24px;
+    position: relative;
+    right:120px;
+    cursor: pointer;
+    
+    
+}
+.setting{
+    color: white;
+    position: relative;
+    right:70px;
+    cursor: pointer;
+}
+
+.show{
+    background-image: url(/assets/ironman4.jpg);
+    background-size: calc(100% /1);
+    background-repeat: no-repeat;
+    height: calc(350px);
+    width:calc(100% /2);
+    width: 100%;
+    object-fit: cover;
+    animation: movieshow 20s infinite 3s ease-in-out ;
+    
+}
+
+@keyframes movieshow{
+    0%{
+        background-image:url(/assets/ironman.jpg)
+
+    }
+
+    60%{
+        background-image:url(/assets/ironman4.jpg);
+        background-position: 80%;
+
+    }
+    100%{
+        background-image:url(/assets/ironman5.jpg);
+    }
+    
+}
+.allblack{
+    display: flex;
+}
+.rightblack{
+    background-image:linear-gradient(to right,rgb(22, 22, 22) ,transparent);
+    backdrop-filter: blur(px);
+    height: 350px;
+    width: 150px;
+    
+
+}
+.rightblack i{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+    cursor:pointer;
+    right: 50px;
+    padding: 0px;
+    
+
+
+}
+.leftblack{
+    background-image:linear-gradient(to left,rgb(16, 15, 15),transparent);
+    height:350px;
+    width:150px;
+    position: absolute;
+    right:0px;
+}
+.leftblack i{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:150px;
+    cursor: pointer;
+    margin-left: 90px;
+    padding-right: 0px;
+}
+.contentbg{
+    background-color: #060d0f;
+    height: 800px;
+    width: 100%;
+}
+.row1{
+    display: flex;
+    position: absolute;
+    right:295px;
+    top: 530px;
+
+}
+img{
+
+    height: 152px;
+    width: 270px;
+    border-radius: 5px;
+}
+.row11{
+    padding: 6px;
+
+
+}
+img:hover{
+        background-image: url("");
+        background-size: cover;
+        text-align: center;
+        height: 165px;
+        width: 285px;
+}
+.arrow i{
+    cursor:pointer ;
+    position: absolute;
+    font-size:1.6rem;
+    text-align: center;
+    line-height: 1px;
+    transform: translatex(50%);
+}
+.arrow i{
+    left: 23px;
+    padding-right: 0%;
+}
+.font1{
+    padding-top: 120px;
+    padding-left: 60px;
+}
+.row2{
+    margin-top: 20px;
+    padding-left: 50px;
+
+}
+.row2 img{
+      margin-left: 5px;
+      cursor: pointer;
+}
+.cornerblack{
+    height: 152px;
+    width: 60px;
+    position: relative;
+    left:1399px;
+    top:-154px;
+    cursor: pointer;
+}
+.button1{
+    background-image: linear-gradient(to left,rgb(15, 14, 14),transparent);
+    height: 180px;
+    width:130px;
+    position: relative;
+    left:1329px;
+    top: -319px;
+}
+.arrow11{
+    font-size: 30px;
+    height: 164px;
+    width: 144px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.font2{
+    margin-top: -303px;
+    margin-left: 55px;
+}
+.row3{
+    margin-top: 20px;
+    margin-left: 60px;
+    
+}
+.row3 img{
+    padding-left: 5px;
+    border-radius: 8px;
+}
+.cornerblack1{
+    background-image:url(play8.jpg);
+    background-size: cover;
+    height: 152px;
+    width: 80px;
+    margin-top: -153px;
+    margin-left: 1375px;
+    border-radius: 8px;
+}
+.blurblack{
+    background-image: linear-gradient(to left,rgb(9, 9, 9),transparent);
+    background-size: cover;
+    height: 152px;
+    width: 120px;
+    margin-top: -153px;
+    margin-left: -40px;
+    border-radius: 8px;
+
+}
+.lastarrow{
+    font-size: 30px;
+    margin-left: 45px;
+    padding-top: 50px;
+}
+.footerbg{
+    background-color: #141a1b;
+    height: 200px;
+    width: 1520px;
+    margin-top: 50px;
+    display: flex;
+    padding: 40px;
+    
+}
+.minitvlogo{
+    background-image: url("/assets/minitv.png");
+    background-size: cover;
+    height: 80px;
+    width: 170px;
+    margin-top: -38px;
+    
+}
+.playstore{
+    background-image: url(/assets/playstore.png);
+    background-size: cover;
+    height: 30px;
+    width: 110px;
+    object-fit: cover;
+    margin-left: 40px;
+    border-radius: 8px;
+    
+}
+.appstore{
+    background-image: url(/assets/appstore.png);
+    background-size: cover;
+    object-fit: fill;
+    height: 30px;
+    width: 110px;
+    margin-left: 6px;
+
+}
+.qr{
+    background-image: url(/assets/qr.png);
+    background-size: cover;
+    height:80px;
+    width:80px;
+    margin-left: 8px;
+}
+.windows{
+    margin-left: -854px;
+    margin-top: 120px;
+}
+.head{
+    text-align: center;
+}
